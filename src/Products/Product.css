@@ -1,0 +1,44 @@
+.product {
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 12px;
+    color: black;
+    max-width: 250px;
+    max-height: 500px;
+    word-wrap: initial;
+}
+
+.product__img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+
+}
+
+.product__img > img {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    
+}
+.product__title {
+    color: #007bff;
+}
+
+.product__avail {
+    color: #000;
+}
+
+.product__unavail {
+    color: #000;
+}
+
+@media screen and (max-width: 600px){
+    .product {
+        margin: 10px auto 50px auto;
+    }
+}
