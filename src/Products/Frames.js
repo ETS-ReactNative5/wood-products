@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from './Product'
+import Product from './Product';
 import ztw_dadant from '../Pictures/Zatwory/ztw_dadant.png'
 import ztw_styr from '../Pictures/Zatwory/ztw_styr.png'
 import mata_ocpl from '../Pictures/Zatwory/mata_ocpl.png'

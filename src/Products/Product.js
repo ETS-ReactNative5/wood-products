@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Product.css"
 import { Link } from 'react-router-dom';
-import { useStateValue } from "C:/Users/eryko/wood-products/src/StateProvider.js";
+import { useStateValue } from "../StateProvider.js";
 
 
 function Product({ id, title, image, price, availble }) {

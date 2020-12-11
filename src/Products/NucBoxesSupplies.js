@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from './Product'
+import Product from './Product';
 import powk_wlkp_10R_1P from '../Pictures/Powalki_i_przegonki/powk_wlkp_10R_1P.png'
 import powk_wlkp_10R_3P from '../Pictures/Powalki_i_przegonki/powk_wlkp_10R_3P.png'
 import prsc_dyst_wlkp_10R from '../Pictures/Powalki_i_przegonki/prsc_dyst_wlkp_10R.png'

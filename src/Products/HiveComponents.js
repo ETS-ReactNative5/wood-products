@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from './Product'
+import Product from './Product';
 import pdkrm_wrsz_25 from '../Pictures/Podkarmiaczki_ramkowe/pdkrm_wrsz_25.png'
 import pdkrm_wlkp_powlk_10R from '../Pictures/Podkarmiaczki_ramkowe/pdkrm_wlkp_powlk_10R.png'
 import pdkrm_dadant_36 from '../Pictures/Podkarmiaczki_ramkowe/pdkrm_dadant_36.png'
