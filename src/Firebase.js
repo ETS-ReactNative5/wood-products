@@ -1,14 +1,13 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyCta5nWQBskE0DnqZOh6cpXVVtUUznZX40",
-  authDomain: "dla-pszczelarzy.firebaseapp.com",
-  databaseURL: "https://dla-pszczelarzy.firebaseio.com",
-  projectId: "dla-pszczelarzy",
-  storageBucket: "dla-pszczelarzy.appspot.com",
-  messagingSenderId: "374190089654",
-  appId: "1:374190089654:web:5fad60f2b0a0ce9ac38d17",
-  measurementId: "G-EDD0PPG4DX"
+  apiKey: "AIzaSyCrCFx9xXHIZJa-r9FUatMmGLO9Btqqa6w",
+  authDomain: "wood-products-c3e75.firebaseapp.com",
+  projectId: "wood-products-c3e75",
+  storageBucket: "wood-products-c3e75.appspot.com",
+  messagingSenderId: "512839784095",
+  appId: "1:512839784095:web:3143dcf6b2eb03752174aa",
+  measurementId: "G-M5X5MTKNWK"
 });
 
 var messagesRef = firebase.database().ref("orders");
