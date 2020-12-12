@@ -1,10 +1,10 @@
 # 🛒 E-commerce single-page application 🛒 
 That application was created for my dad to order products by clients from his online auctions.
 
-❗️ That is a testing version of app, so your don't send a real orders! ❗️
+❗️ This is a testing version of app, so you are not sending a real orders! ❗️
 
 ## 💢 Link to app: 💢
-https://discord-clone-47751.web.app
+https://wood-products-fcf18.web.app
 
 ## 🔍 Table of contents 🔍
 * [General info](#general-info)

@@ -60,7 +60,7 @@ function BargainBarnItems() {
             <Product
                 id='ul_dadnat_8r'
                 title='Ul odkładowy dadant gniazdowy 8R'
-                image='https://lh3.googleusercontent.com/proxy/DKXYHhLLYagXlfG6HkU8MuFL8q1aDSd6AGDRfaF_biGQGY2KAB5A5kn84RidkU2Pwm_nUIoq-B4IVnlooWv3U7_h3edLNDwTr46fDuLsLpkZG-_IMsCFPao'
+                image='https://www.polhp.pl/wp-content/uploads/2020/03/9003Ul20Wielkopolski20%E2%80%9320drewniany20klepkowy20ocieplany.jpg'
                 price={80}
                 availble={true}
             />
