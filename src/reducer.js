@@ -5,10 +5,9 @@ export const initialState = {
 }
 
 
-
+// management of depatched informations
 function reducer(state, action) {
-    
-    switch(action.type){
+    switch (action.type) {
         case 'SEND_PRODUCT':
             return {
                 ...state,
@@ -22,7 +21,7 @@ function reducer(state, action) {
         case 'REMOVE_FROM_BUSKET':
             let newBasket = [...state.basket];
             const index = state.basket.findIndex((basketItem) => basketItem.id === action.id);
-            
+
             if (index >= 0) {
                 newBasket.splice(index, 1);
             } else {
@@ -42,7 +41,7 @@ function reducer(state, action) {
         default:
             return state;
     }
-        
+
 }
 
 export default reducer;

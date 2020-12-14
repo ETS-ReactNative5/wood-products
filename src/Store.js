@@ -7,6 +7,7 @@ import BeeHiveKits from './Products/BeeHiveKits';
 import BargainBarnItems from './Products/BargainBarnItems';
 import NucBoxesSupplies from './Products/NucBoxesSupplies';
 
+// route between categories
 const products = (i) => {
     switch (i) {
         case 'Frames':
@@ -29,7 +30,6 @@ const products = (i) => {
 function Store({ items }) {
     return (
         <div className='store'>
-
             <div className='store__left'>
                 <StoreCategories />
             </div>

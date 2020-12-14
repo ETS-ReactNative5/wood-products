@@ -6,9 +6,10 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 
 function Header() {
   const [{ basket }] = useStateValue();
+
+  // get items quantity in basket
   let items = basket.reduce(
-    (a, b) => parseInt(a, 10) + parseInt(b.quantity, 10),
-    0
+    (a, b) => parseInt(a, 10) + parseInt(b.quantity, 10), 0
   );
   return (
     <nav className="header">

@@ -7,7 +7,10 @@ import { Link } from "react-router-dom";
 function Order() {
   const [{ basket }, dispatch] = useStateValue();
 
+  // send order to database
   const sendOrder = () => {
+
+    // get inputs values from form
     var firstName = getInputValue("firstName");
     var lastName = getInputValue("lastName");
     var email = getInputValue("email");
@@ -17,23 +20,24 @@ function Order() {
     var phone = getInputValue("phone");
     var items = "";
     var price = 25;
+
+    // add all items title and quantity to one string
     basket.map((i) => (items += i.title + ": " + i.quantity + "szt,"));
+
+    // add prices
     basket.map((i) => (price += i.price));
 
+    // clear basket after saving order
     dispatch({
       type: "CLEAR_BASKET",
     });
 
-    if (
-      (firstName && lastName && email && address && city && zipCode && phone)
-        .length <= 0
-    ) {
-      document.querySelector(".order__address__error").style.display =
-        "block";
+    // check that data in inputs is in correct format
+    if ((firstName && lastName && email && address && city && zipCode && phone).length <= 0) {
+      document.querySelector(".order__address__error").style.display = "block";
     } else if (email.indexOf("@") === -1) {
       document.querySelector("#email").style.border = "1px solid red";
-      document.querySelector(".order__address__error").style.display =
-        "none";
+      document.querySelector(".order__address__error").style.display = "none";
     } else if (zipCode.indexOf("-") === -1) {
       document.querySelector("#email").style.border = "1px solid gray";
       document.querySelector("#zipCode").style.border = "1px solid red";
@@ -44,6 +48,8 @@ function Order() {
       document.querySelector("#phone").style.border = "1px solid gray";
       document.querySelector(".order__alert").style.display = "flex";
       document.querySelector(".order__block").style.display = "block";
+
+      // send order to database
       saveMessage(
         firstName,
         lastName,
@@ -58,6 +64,7 @@ function Order() {
     }
   };
 
+  // shorter way to get input value
   const getInputValue = (id) => {
     return document.getElementById(id).value;
   };

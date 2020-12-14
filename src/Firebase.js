@@ -11,8 +11,8 @@ const firebaseApp = firebase.initializeApp({
   measurementId: "G-JCV1JB1YR8"
 });
 
+// push order to database
 var messagesRef = firebase.database().ref("orders");
-
 const saveMessage = (
   firstName,
   lastName,

@@ -6,9 +6,10 @@ import './Store.css'
 
 function ProductDetails() {
     const qty = document.querySelector('.details__quantity');
-    const [{ details, basket }, dispatch] = useStateValue();
+    const [{ details }, dispatch] = useStateValue();
     const [multiplier, iM] = useState(0);
-    console.log(basket)
+
+    // check that user insert only dignits
     function setInputFilter(textbox, inputFilter) {
         ["input", "keydown", "keyup", "mousedown", "mouseup", "select", "contextmenu", "drop"].forEach(function (event) {
             if (qty) {
@@ -28,11 +29,11 @@ function ProductDetails() {
 
         });
     }
-
     setInputFilter(qty, function (value) {
         return /^-?\d*$/.test(value);
     });
 
+    // add chosen product to basket
     const addToBasket = () => {
         document.querySelector('.details__alert').style.display = 'flex';
         document.querySelector('.details__block').style.display = 'block';
@@ -49,14 +50,13 @@ function ProductDetails() {
                 }
             })))
     }
+
+    // multiply price depends on product quantity
     let increaseMultiplier = (event) => {
         iM(event.target.value);
     }
 
-
-
     return (
-
         <div className='details'>
             <div className='details__block'></div>
             <div className='details__alert'>
