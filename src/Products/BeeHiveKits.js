@@ -1,6 +1,6 @@
 import React from 'react'
 import Product from './Product';
-import regal from '../Pictures/Regal_do_ramek/regal.jpg'
+//import regal from '../Pictures/Regal_do_ramek/regal.jpg'
 
 function BeeHiveKits() {
     return (
