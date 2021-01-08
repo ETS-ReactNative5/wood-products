@@ -4,7 +4,7 @@ That application was created for my dad to order products by clients from his on
 ❗️ This is a testing version of app, so you are not sending a real orders! ❗️
 
 ## 💢 Link to app: 💢
-https://wood-products-fcf18.web.app
+https://wp-store-84db9.web.app
 
 ## 🔍 Table of contents 🔍
 * [General info](#general-info)
