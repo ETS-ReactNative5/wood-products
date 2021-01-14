@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './Product';
+import brak_zdjecia from '../Pictures/brak_zdjecia.png'
 import pdkrm_wrsz_25 from '../Pictures/Podkarmiaczki_ramkowe/pdkrm_wrsz_25.png'
 import pdkrm_wlkp_powlk_10R from '../Pictures/Podkarmiaczki_ramkowe/pdkrm_wlkp_powlk_10R.png'
 import pdkrm_dadant_36 from '../Pictures/Podkarmiaczki_ramkowe/pdkrm_dadant_36.png'
@@ -42,7 +43,11 @@ function HiveComponents() {
             <Product
                 id='pdkrm_lngs_25'
                 title='Podkarmiaczka langstroth 2.5l'
+<<<<<<< HEAD
                 image='https://www.nastavky.cz/wp-content/uploads/produkty/1429097534krmitko.png'
+=======
+                image={brak_zdjecia}
+>>>>>>> e57df39f167922c694b4dbd1f4db5df1f370724a
                 price={19}
                 availble={true}
             />

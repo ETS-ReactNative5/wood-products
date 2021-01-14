@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './Product';
+import brak_zdjecia from '../Pictures/brak_zdjecia.png'
 import powk_wlkp_10R_1P from '../Pictures/Powalki_i_przegonki/powk_wlkp_10R_1P.png'
 import powk_wlkp_10R_3P from '../Pictures/Powalki_i_przegonki/powk_wlkp_10R_3P.png'
 import prsc_dyst_wlkp_10R from '../Pictures/Powalki_i_przegonki/prsc_dyst_wlkp_10R.png'
@@ -28,7 +29,7 @@ function NucBoxesSupplies() {
             <Product
                 id='powk_wlkp_10R_5P'
                 title='Powałka wielkopolska 10R z pięcioma pajączkami'
-                image='https://a.allegroimg.com/s400/116884/7a12f5c844feb6b20d1fea39fdc9/Powalka-Wielkopolska-10-ramkow-Drewniana-5-otworow'
+                image={brak_zdjecia}
                 price={33}
                 availble={true}
             />
@@ -49,7 +50,7 @@ function NucBoxesSupplies() {
             <Product
                 id='powk_wlkp_12R_5P'
                 title='Powałka wielkopolska 12R z pięcioma pajączkami'
-                image='https://a.allegroimg.com/s400/116884/7a12f5c844feb6b20d1fea39fdc9/Powalka-Wielkopolska-10-ramkow-Drewniana-5-otworow'
+                image={brak_zdjecia}
                 price={35}
                 availble={true}
             />
@@ -70,7 +71,7 @@ function NucBoxesSupplies() {
             <Product
                 id='powk_dadant_12R_5P'
                 title='Powałka dadant 12R z pięcioma pajączkami'
-                image='https://a.allegroimg.com/s400/116884/7a12f5c844feb6b20d1fea39fdc9/Powalka-Wielkopolska-10-ramkow-Drewniana-5-otworow'
+                image={brak_zdjecia}
                 price={35}
                 availble={true}
             />
@@ -84,14 +85,14 @@ function NucBoxesSupplies() {
             <Product
                 id='przgn_wlkp_12R'
                 title='Przegonka wielkopolska 12R'
-                image='https://pszczelnictwo.com.pl/system/product_pictures/pictures/000/029/565/large/29565.jpg?1487771744'
+                image={brak_zdjecia}
                 price={34}
                 availble={true}
             />
             <Product
                 id='przgn_dadant_10R'
                 title='Przegonka dadant 10R'
-                image='https://pszczelnictwo.com.pl/system/product_pictures/pictures/000/029/565/large/29565.jpg?1487771744'
+                image={brak_zdjecia}
                 price={34}
                 availble={true}
             />

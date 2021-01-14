@@ -14,9 +14,11 @@
     display: flex;
     width: 250px;
     height: 250px;
-    display: flex;
     align-items: center;
-
+    justify-content: center;
+    color: #007bff;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .product__img > img {
