@@ -11,15 +11,28 @@ function Order() {
   const sendOrder = () => {
 
     // get inputs values from form
-    var firstName = getInputValue("firstName");
-    var lastName = getInputValue("lastName");
-    var email = getInputValue("email");
-    var address = getInputValue("address");
-    var city = getInputValue("city");
-    var zipCode = getInputValue("zipCode");
-    var phone = getInputValue("phone");
-    var items = "";
-    var price = 25;
+    let firstName = getInputValue("firstName");
+    let lastName = getInputValue("lastName");
+    let email = getInputValue("email");
+    let address = getInputValue("address");
+    let city = getInputValue("city");
+    let zipCode = getInputValue("zipCode");
+    let phone = getInputValue("phone");
+    let items = "";
+    let price = 25;
+    let date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+
+    const dateCheck = (date) => {
+      if (date < 10) return `0${date}`;
+      else return date;
+    }
+
+    date = `${dateCheck(day)}.${dateCheck(month)}.${year}`;
+
+
 
     // add all items title and quantity to one string
     basket.map((i) => (items += i.title + ": " + i.quantity + "szt,"));
@@ -59,7 +72,8 @@ function Order() {
         zipCode,
         phone,
         items,
-        price
+        price,
+        date,
       );
     }
   };

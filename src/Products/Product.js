@@ -24,10 +24,16 @@ function Product({ id, title, image, price, availble }) {
         <Link to='/product/details' onClick={send}>
             <div className='product'>
                 <div className='product__img'>
-                    <img
-                        src={image}
-                        alt='Brak zdjęcia'
-                    />
+                    {
+                        image ?
+                            <img
+                                src={image}
+                                alt='Brak zdjęcia'
+                            />
+                            :
+                            <p>Brak zdjęcia</p>
+                    }
+
                 </div>
 
                 <h3 className='product__title'>

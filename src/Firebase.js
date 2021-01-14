@@ -22,7 +22,8 @@ const saveMessage = (
   zipCode,
   phone,
   items,
-  price
+  price,
+  date,
 ) => {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
@@ -34,7 +35,8 @@ const saveMessage = (
     zipCode,
     phone,
     items,
-    price
+    price,
+    date,
   });
 };
 
