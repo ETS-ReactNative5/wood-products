@@ -24,8 +24,6 @@ function HiveComponents() {
                 availble={true}
             />
 
-
-
             <Product
                 id='pdkrm_wrsz_pszrz_25'
                 title='Podkarmiaczka warszawska poszerzana ramkowa 3.6l'
@@ -44,7 +42,7 @@ function HiveComponents() {
             <Product
                 id='pdkrm_lngs_25'
                 title='Podkarmiaczka langstroth 2.5l'
-                image='https://lyson.com.pl/7526/podkarmiaczka-ramkowa-langstroth-drewniana-25l.jpg'
+                image='https://www.nastavky.cz/wp-content/uploads/produkty/1429097534krmitko.png'
                 price={19}
                 availble={true}
             />

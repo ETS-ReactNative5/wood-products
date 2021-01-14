@@ -51,7 +51,7 @@ function Frames() {
             <Product
                 id='ztw_wlkp_1/2'
                 title='Zatwór wielkopolski 1/2 zwykły'
-                image='https://lyson.com.pl/6841/przegroda-zaciesniajaca-wielkopolska-12-styropianowa.jpg'
+                image='https://www.polhp.pl/wp-content/uploads/2020/05/317KZatw%C3%B3rDadant-300x300.jpg'
                 price={5.5}
                 availble={true}
             />

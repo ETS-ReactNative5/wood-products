@@ -44,7 +44,7 @@ function BargainBarnItems() {
             <Product
                 id='ul_wrsz_6r'
                 title='Ul odkładowy warszawski zwykły 6R'
-                image='https://lyson.com.pl/7257-large_default/ul-6-ramkowy-do-wychowu-pakietow-dadant-niemalowany.jpg'
+                image='https://www.polhp.pl/wp-content/uploads/2020/03/9003Ul20Wielkopolski20%E2%80%9320drewniany20klepkowy20ocieplany.jpg'
                 price={70}
                 availble={true}
             />
@@ -52,7 +52,7 @@ function BargainBarnItems() {
             <Product
                 id='ul_wrsz_8r'
                 title='Ul odkładowy warszawski zwykły 8R'
-                image='https://lyson.com.pl/7257-large_default/ul-6-ramkowy-do-wychowu-pakietow-dadant-niemalowany.jpg'
+                image='https://www.polhp.pl/wp-content/uploads/2020/03/9003Ul20Wielkopolski20%E2%80%9320drewniany20klepkowy20ocieplany.jpg'
                 price={75}
                 availble={true}
             />
@@ -68,7 +68,7 @@ function BargainBarnItems() {
             <Product
                 id='ul_dadnat_nads'
                 title='Ul odkładowy dadant gniazdowy z nadstawką'
-                image='https://lyson.com.pl/9140/ul-6-ramkowy-do-wychowu-pakietow-wielkopolski-niemalowany.jpg'
+                image='https://pszczelnictwo.com.pl/system/product_pictures/pictures/000/043/553/large/43553.jpg?1600937487'
                 price={110}
                 availble={true}
             />
@@ -76,7 +76,7 @@ function BargainBarnItems() {
             <Product
                 id='ul_dadnat__1/2_nads'
                 title='Ul odkładowy dadant 1/2 z nadstawką'
-                image='https://lyson.com.pl/9140/ul-6-ramkowy-do-wychowu-pakietow-wielkopolski-niemalowany.jpg'
+                image='https://pszczelnictwo.com.pl/system/product_pictures/pictures/000/043/553/large/43553.jpg?1600937487'
                 price={85}
                 availble={true}
             />
