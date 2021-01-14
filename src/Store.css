@@ -1,0 +1,35 @@
+.store {
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto 0 auto;
+}
+
+.store__right {
+    margin: 20px;
+    margin-left: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.store__left {
+    text-align: center;
+    margin: 20px 0 0 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media all and (max-width: 1000px) {
+    .store {
+        display: inline;
+    }
+    .store__left{
+        margin: 0;
+        width: 100%;
+    }
+    .store__right{
+        margin: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+}

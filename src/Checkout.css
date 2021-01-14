@@ -1,0 +1,31 @@
+.checkout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkout__left {
+    margin-left: 20px;
+}
+
+.checkout__right {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 850px) {
+    .checkout {
+        flex-direction: column-reverse;
+    }
+
+    .checkout__right {
+        text-align: center;
+        margin: 0 auto 0 auto;
+        border-bottom: 2px solid #007bff;
+        width: 100%;
+    }
+
+    .checkout__left {
+        margin: 0 auto 0 auto;
+    }
+
+}

@@ -1,0 +1,23 @@
+.storeCategories {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.storeCategories > h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.storeCategories__link {
+    text-decoration: none;
+    border-bottom: 2px solid #007bff;
+    transition: .2s;
+    color: #007bff;
+}
+
+.storeCategories__link:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #007bff;
+}

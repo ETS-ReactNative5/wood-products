@@ -1,0 +1,13 @@
+.info
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #007bff;
+    text-decoration: none;
+}
