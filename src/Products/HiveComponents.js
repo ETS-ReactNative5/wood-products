@@ -14,14 +14,14 @@ function HiveComponents() {
                 id='pdkrm_wlkp_25'
                 title='Podkarmiaczka wielkopolska ramkowa 2.5l'
                 image={pdkrm_wlkp_25}
-                price={19}
+                price={23}
                 availble={true}
             />
             <Product
                 id='pdkrm_wrsz_25'
                 title='Podkarmiaczka warszawska zwykła ramkowa 2.5l'
                 image={pdkrm_wrsz_25}
-                price={22}
+                price={24}
                 availble={true}
             />
 
@@ -31,14 +31,14 @@ function HiveComponents() {
                 id='pdkrm_wrsz_pszrz_25'
                 title='Podkarmiaczka warszawska poszerzana ramkowa 3.6l'
                 image={pdkrm_wrsz_pszrz_25}
-                price={22}
+                price={25}
                 availble={true}
             />
             <Product
                 id='pdkrm_dadant_36'
                 title='Podkarmiaczka dadant ramkowa 3.6l'
                 image={pdkrm_dadant_36}
-                price={22}
+                price={25}
                 availble={true}
             />
 
@@ -46,17 +46,17 @@ function HiveComponents() {
                 id='pdkrm_lngs_25'
                 title='Podkarmiaczka langstroth 2.5l'
                 image={brak_zdjecia}
-                price={19}
+                price={23}
                 availble={true}
             />
 
-            <Product
+            {/* <Product
                 id='pdkrm_wlkp_powlk_10R'
                 title='Podkarmiaczka powałkowa wielkopolska 10R'
                 image={pdkrm_wlkp_powlk_10R}
                 price={55}
                 availble={true}
-            />
+            /> */}
         </div>
     )
 }

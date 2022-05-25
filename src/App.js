@@ -45,6 +45,10 @@ function App() {
             <Header />
             <Store items='NucBoxesSupplies' />
           </Route>
+          <Route path='/store/rojniceTransportery'>
+            <Header />
+            <Store items='RojniceTransportery' />
+          </Route>
           <Route path='/contact'>
             <Header />
             <Info />

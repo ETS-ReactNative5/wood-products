@@ -6,6 +6,7 @@ import HiveComponents from './Products/HiveComponents';
 import BeeHiveKits from './Products/BeeHiveKits';
 import BargainBarnItems from './Products/BargainBarnItems';
 import NucBoxesSupplies from './Products/NucBoxesSupplies';
+import RojniceTransportery from './Products/RojniceTransportery';
 
 // route between categories
 const products = (i) => {
@@ -20,6 +21,8 @@ const products = (i) => {
             return <BargainBarnItems />;
         case 'NucBoxesSupplies':
             return <NucBoxesSupplies />;
+        case 'RojniceTransportery':
+            return <RojniceTransportery />;
         default:
             return <Frames />;
     }

@@ -5,7 +5,7 @@ export const initialState = {
 }
 
 
-// management of depatched informations
+// management of dispatched informations
 function reducer(state, action) {
     switch (action.type) {
         case 'SEND_PRODUCT':

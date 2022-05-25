@@ -68,37 +68,41 @@ function ProductDetails() {
 
             </div>
             {details.map(item => (
-                <div className='details__card'>
-                    <img
-                        className='details__img'
-                        src={item.image}
-                        alt=''
-                    />
-                    <div className='details__info'>
-                        <h3 className='details__title'>
-                            {item.title}
-                        </h3>
-                        <label>Ilość: </label>
-                        <input className='details__quantity' onChange={increaseMultiplier} type='text' min='1' maxLength='2' />
-                        <p className='details__price'>
-                            Cena: {(item.price * multiplier) % 1 ? item.price * multiplier + '0' : item.price * multiplier}zł
+                <>
+                    <div className='details__card'>
+                        <img
+                            className='details__img'
+                            src={item.image}
+                            alt=''
+                        />
+                        <div className='details__info'>
+                            <h3 className='details__title'>
+                                {item.title}
+                            </h3>
+                            <label>Ilość: </label>
+                            <input className='details__quantity' onChange={increaseMultiplier} type='text' min='1' maxLength='2' />
+                            <p className='details__price'>
+                                Cena: {(item.price * multiplier) % 1 ? item.price * multiplier + '0' : item.price * multiplier}zł
                         </p>
-                        {multiplier <= 0 ? <button className='details__buttonOff'>Dodaj do koszyka</button> : <button className='details__button' onClick={addToBasket}>Dodaj do koszyka</button>}
+                            {multiplier <= 0 ? <button className='details__buttonOff'>Dodaj do koszyka</button> : <button className='details__button' onClick={addToBasket}>Dodaj do koszyka</button>}
+                        </div>
                     </div>
-                </div>
+                    <div className='details__description'>
+                        <p>
+                            {item.description}
+                        </p>
+                    </div>
+                </>
             ))}
-            {details.length !== 0 ?
-                <div className='details__description'>
-                    <p>
-                        {/* This beehive winter wrap has velcro closures for a snug fit on 10 frame hives. Made from marine-grade vinyl-coated polyester, it has 1/2" thick R4 rigid Owens-Corning insulating foam, which is impervious to mice and snakes.<br /><br /> This hive wrap helps retain the heat of the bees' cluster, keeping the colony warmer in cold northern temps. Made in the USA. Inside dimensions: 16-1/2" wide by 20" long by 17" tall. Covers two 9.5" deeps with room for the telescoping cover.<br /><br /> Hive not included. */}
-                    </p>
-                </div>
-                :
+            {details.length === 0 ?
                 <div className='details__description'>
                     <Link to='/store'>
                         <button className='details__button'>Wróć do sklepu</button>
                     </Link>
-                </div>}
+                </div>
+                :
+                null
+            }
         </div>
     )
 }

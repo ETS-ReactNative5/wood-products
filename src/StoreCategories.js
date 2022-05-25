@@ -6,20 +6,23 @@ function StoreCategories() {
     return (
         <div className='storeCategories'>
             <h1>Kategorie</h1>
-            <Link to='/store/frames' className='storeCategories__link'>
-                <p>Zatwory</p>
+            <Link to='/store/bargainBarnItems' className='storeCategories__link'>
+                <p>Ule odkładowe</p>
+            </Link>
+            <Link to='/store/beeHiveKits' className='storeCategories__link'>
+                <p>Regały do ramek</p>
+            </Link>
+            <Link to='/store/nucBoxesSupplies' className='storeCategories__link'>
+                <p>Powałki i przegonki</p>
             </Link>
             <Link to='/store/hiveComponents' className='storeCategories__link'>
                 <p>Podkarmiaczki ramkowe</p>
             </Link>
-            <Link to='/store/beeHiveKits' className='storeCategories__link'>
-                <p>Regał do ramek</p>
+            <Link to='/store/frames' className='storeCategories__link'>
+                <p>Zatwory</p>
             </Link>
-            <Link to='/store/bargainBarnItems' className='storeCategories__link'>
-                <p>Ule odkładowe</p>
-            </Link>
-            <Link to='/store/nucBoxesSupplies' className='storeCategories__link'>
-                <p>Powałki i przegonki</p>
+            <Link to='/store/rojniceTransportery' className='storeCategories__link'>
+                <p>Rojnice i transportery</p>
             </Link>
         </div>
     )

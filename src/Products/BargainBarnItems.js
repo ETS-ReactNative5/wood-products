@@ -20,15 +20,39 @@ function BargainBarnItems() {
                 id='ul_wlkp_6r'
                 title='Ul odkładowy wielkopolski zwykły 6R'
                 image={ul_wlkp_6r}
-                price={70}
+                price={87}
                 availble={true}
             />
 
             <Product
+                id='ul_dadnat_6r'
+                title='Ul odkładowy dadant zwykły 6R'
+                image={ul_wlkp_6r}
+                price={110}
+                availble={true}
+            />
+
+            <Product
+                id='ul_wrsz_6r'
+                title='Ul warszawski zwykły 6R'
+                image={ul_wrsz_6r}
+                price={87}
+                availble={true}
+            />
+
+            <Product
+                id='ul_wrsz_6r_posz'
+                title='Ul warszawski poszerzany 6 ramkowy'
+                image={ul_wrsz_6r}
+                price={110}
+                availble={true}
+            />
+
+            {/* <Product
                 id='ul_wlkp_8r'
                 title='Ul odkładowy wielkopolski zwykły 8R'
                 image={ul_wlkp_8r}
-                price={75}
+                price={83}
                 availble={true}
             />
 
@@ -52,7 +76,7 @@ function BargainBarnItems() {
                 id='ul_wrsz_6r'
                 title='Ul odkładowy warszawski zwykły 6R'
                 image={ul_wrsz_6r}
-                price={70}
+                price={76}
                 availble={true}
             />
 
@@ -60,7 +84,31 @@ function BargainBarnItems() {
                 id='ul_wrsz_8r'
                 title='Ul odkładowy warszawski zwykły 8R'
                 image={ul_wrsz_8r}
-                price={75}
+                price={83}
+                availble={true}
+            />
+
+            <Product
+                id='ul_wrsz_6r_posz'
+                title='Ul odkładowy warszawski poszerzany 6 ramkowy'
+                image={brak_zdjecia}
+                price={83}
+                availble={true}
+            />
+
+            <Product
+                id='ul_wrsz_8r_posz'
+                title='Ul odkładowy warszawski poszerzany 8 ramkowy'
+                image={brak_zdjecia}
+                price={88}
+                availble={true}
+            />
+
+            <Product
+                id='ul_dadnat_6r'
+                title='Ul odkładowy dadant gniazdowy 6R'
+                image={brak_zdjecia}
+                price={87}
                 availble={true}
             />
 
@@ -68,7 +116,23 @@ function BargainBarnItems() {
                 id='ul_dadnat_8r'
                 title='Ul odkładowy dadant gniazdowy 8R'
                 image={ul_dadnat_8r}
-                price={80}
+                price={91}
+                availble={true}
+            />
+
+            <Product
+                id='ul_dadnat_nads_6R'
+                title='Ul odkładowy dadant z nadstawką 6R'
+                image={brak_zdjecia}
+                price={106}
+                availble={true}
+            />
+
+            <Product
+                id='ul_dadnat_nads_8R'
+                title='Ul odkładowy dadant z nadstawką 8R'
+                image={brak_zdjecia}
+                price={114}
                 availble={true}
             />
 
@@ -84,17 +148,9 @@ function BargainBarnItems() {
                 id='ul_dadnat_1_2_nads'
                 title='Ul odkładowy dadant 1/2 z nadstawką'
                 image={ul_dadnat_1_2_nads}
-                price={85}
+                price={105}
                 availble={true}
-            />
-
-            <Product
-                id='ul_miniplus'
-                title='Ul typu miniplus. Dębnica/korpus/ podkarmiaczka/daszek.'
-                image={ul_miniplus}
-                price={125}
-                availble={true}
-            />
+            /> */}
         </div>
     )
 }

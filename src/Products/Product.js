@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useStateValue } from "../StateProvider.js";
 
 
-function Product({ id, title, image, price, availble }) {
+function Product({ id, title, image, price, availble, description = '' }) {
     const [, dispatch] = useStateValue();
 
     const send = () => {
@@ -15,7 +15,8 @@ function Product({ id, title, image, price, availble }) {
                 title,
                 image,
                 price,
-                availble
+                availble,
+                description
             }
         })
     };

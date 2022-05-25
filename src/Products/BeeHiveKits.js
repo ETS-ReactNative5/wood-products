@@ -10,14 +10,14 @@ function BeeHiveKits() {
                 id='rgl_wlkp_gnizd'
                 title='Regał wielkopolski gniazdowy'
                 image={regal}
-                price={35}
+                price={46}
                 availble={true}
             />
             <Product
                 id='rgl_wrsz'
                 title='Regał warszawski zwykły'
                 image={regal}
-                price={38}
+                price={49}
                 availble={true}
             />
 
@@ -27,14 +27,14 @@ function BeeHiveKits() {
                 id='rgl_wrsz_pszrz'
                 title='Regał warszawski poszerzany'
                 image={regal}
-                price={38}
+                price={49}
                 availble={true}
             />
             <Product
                 id='rgl_dadant_gnizd'
                 title='Regał dadant gniazdowy'
                 image={regal}
-                price={38}
+                price={49}
                 availble={true}
             />
         </div>

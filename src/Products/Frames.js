@@ -21,14 +21,14 @@ function Frames() {
                 id='ztw_wlkp'
                 title='Zatwór wielkopolski zwykły'
                 image={ztw_wlkp}
-                price={6}
+                price={10}
                 availble={true}
             />
             <Product
                 id='ztw_wlkp_ocpl'
                 title='Zatwór wielkopolski ocieplany'
                 image={ztw_wlkp_ocpl}
-                price={12}
+                price={14}
                 availble={true}
             />
 
@@ -38,14 +38,14 @@ function Frames() {
                 id='ztw_wlkp_18'
                 title='Zatwór wielkopolski 18 zwykły'
                 image={ztw_wlkp_18}
-                price={5.5}
+                price={9}
                 availble={true}
             />
             <Product
                 id='ztw_wlkp_18_ocpl'
                 title='Zatwór wielkopolski 18 ocieplany'
                 image={ztw_wlkp_18_ocpl}
-                price={10}
+                price={13}
                 availble={true}
             />
 
@@ -55,14 +55,14 @@ function Frames() {
                 id='ztw_wlkp_1_2'
                 title='Zatwór wielkopolski 1/2 zwykły'
                 image={brak_zdjecia}
-                price={5.5}
+                price={8}
                 availble={true}
             />
             <Product
                 id='ztw_wlkp_1_2_ocpl'
                 title='Zatwór wielkopolski 1/2 ocieplany'
                 image={ztw_wlkp_1_2_ocpl}
-                price={10}
+                price={12}
                 availble={true}
             />
 
@@ -72,14 +72,14 @@ function Frames() {
                 id='ztw_wrsz'
                 title='Zatwór warszawski zwykły'
                 image={ztw_wrsz}
-                price={7.5}
+                price={12}
                 availble={true}
             />
             <Product
                 id='ztw_wrsz_ocpl'
                 title='Zatwór warszawski ocieplany'
                 image={ztw_wrsz_ocpl}
-                price={12}
+                price={16}
                 availble={true}
             />
 
@@ -87,7 +87,7 @@ function Frames() {
                 id='ztw_wrsz_pszrz'
                 title='Zatwór warszawski poszerzany'
                 image={ztw_wrsz_pszrz}
-                price={9}
+                price={14}
                 availble={true}
             />
 
@@ -95,7 +95,7 @@ function Frames() {
                 id='ztw_wrsz_pszrz_ocpl'
                 title='Zatwór warszawski poszerzany ocieplany'
                 image={ztw_wrsz_ocpl}
-                price={14}
+                price={18}
                 availble={true}
             />
 
@@ -103,7 +103,7 @@ function Frames() {
                 id='ztw_dadant'
                 title='Zatwór dadant zwykły'
                 image={ztw_dadant}
-                price={10}
+                price={14}
                 availble={true}
             />
 
@@ -111,7 +111,7 @@ function Frames() {
                 id='ztw_dadant_ocpl'
                 title='Zatwór dadant ocieplany'
                 image={brak_zdjecia}
-                price={14}
+                price={18}
                 availble={true}
             />
 
@@ -119,7 +119,7 @@ function Frames() {
                 id='ztw_lngs_1/1'
                 title='Zatwór langstroth 1/1 zwykły'
                 image={brak_zdjecia}
-                price={10}
+                price={14}
                 availble={true}
             />
 
@@ -127,23 +127,7 @@ function Frames() {
                 id='ztw_lngs_1/1_ocpl'
                 title='Zatwór langstroth 1/1 ocieplany'
                 image={brak_zdjecia}
-                price={14}
-                availble={true}
-            />
-
-            <Product
-                id='ztw_styr'
-                title='Zatwór styropianowy'
-                image={ztw_styr}
-                price={10}
-                availble={true}
-            />
-
-            <Product
-                id='mata_ocpl'
-                title='Mata ocieplająca górna'
-                image={mata_ocpl}
-                price={20}
+                price={18}
                 availble={true}
             />
 
